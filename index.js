@@ -6,7 +6,7 @@ function submitForm() {
 
     if (inputMD5 == senhamd5) {
         sessionStorage.setItem('entrar', 'aa');
-        document.location = "/atletas.html";
+        window.location = "https://annab3flores.github.io/ap2_devweb/atletas.html";
     } else {
         alert("senha incorreta!");
     }
