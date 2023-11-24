@@ -1,6 +1,6 @@
 if (!sessionStorage.getItem('entrar')) {
     alert("Acesso não autorizado!");
-    window.location = '/';
+    window.location = 'https://annab3flores.github.io/ap2_devweb/';
 }
 
 const urlApi = "https://botafogo-atletas.mange.li";
@@ -37,7 +37,7 @@ btnSair.id = "btnSair"
 btnSair.innerText = 'Sair';
 btnSair.onclick = () => {
     sessionStorage.removeItem('entrar');
-    window.location = '/';
+    window.location = 'https://annab3flores.github.io/ap2_devweb/';
 };
 
 containerCabecalho.appendChild(textoCabecalho);
