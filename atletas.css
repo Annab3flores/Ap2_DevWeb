@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .5em;
+}
+
+.container-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #0f0136;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px; 
+}
+
+article {
+    width: 300px;
+    background-color: #696767;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#secaoBotoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.conteudo-opcoes button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    color: #333;
+}
+
+#btnOpcoes {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: none;
+}
+
+.conteudo-opcoes button:hover {
+    background-color: #ddd;
+}
+
+#btnSair {
+    background-color: #e74c3c;
+}
+
+#btnSair:hover {
+    background-color: #c0392b;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    body {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #btnOpcoes {
+        display: block;
+    }
+    #secaoBotoes{
+        display: none;
+    }
+}
+
