@@ -10,7 +10,7 @@ const nascimento = document.getElementById('nascimento');
 const altura = document.getElementById('altura');
 const btnVoltar = document.getElementById('btnVoltar');
 
-btnVoltar.onclick = () => window.location = '/atletas.html';
+btnVoltar.onclick = () => window.location = 'https://annab3flores.github.io/ap2_devweb/atletas.html';
 
 const pegar_coisas = async (caminho) => {
     const resposta = await fetch(caminho);
