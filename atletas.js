@@ -111,7 +111,7 @@ const lidarComCliqueBotoes = (caminho) => {
 };
 
 const lidarComCliqueContainer = (atleta) => {
-    window.location = `/outra.html?id=${atleta.id}`;
+    window.location = `https://annab3flores.github.io/ap2_devweb/outra.html?id=${atleta.id}`;
 };
 
 const buscarDados = async (caminho) => {
