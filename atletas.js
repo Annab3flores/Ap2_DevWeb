@@ -36,7 +36,7 @@ const btnSair = document.createElement('button');
 btnSair.id = "btnSair"
 btnSair.innerText = 'Sair';
 btnSair.onclick = () => {
-    sessionStorage.removeItem('auth');
+    sessionStorage.removeItem('entrar');
     window.location = '/';
 };
 
